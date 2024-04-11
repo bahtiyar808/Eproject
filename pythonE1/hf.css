@@ -1,0 +1,66 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #555;
+}
+
+.content{
+    padding: 50px 100px 100px 100px
+}
+
+.image-text{
+    width: 100%;
+}
+
+.float-right{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+    color: #333;
+    font: caption;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #007bff;
+}
